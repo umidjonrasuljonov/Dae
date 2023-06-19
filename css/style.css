@@ -1,0 +1,629 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+/* STANDART TEGLAR START */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', 'San-serif';
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ /* STANDART TEGLAR END */
+
+ /* HEADER START */
+ /* .fa-duotone fa-phone {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://fontawesome.com/icons/phone?f=classic&s=duotone');
+ } */
+ 
+ .top-header {
+    width: 100%;
+    max-width: 1440px;
+    background-color:#B36050;
+ }
+
+
+ .header {
+  
+}
+
+.top-header {
+    width: 100%;
+    max-width: 1340px;
+    color: #F1D3B9;
+    font-size: 17px;
+    background-color: #B36050;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    position: fixed;
+}
+.top-header_title {
+}
+.header-nav {
+    width: 100%;
+    max-width: 1340px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: #F6F4EC;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    margin-top: 39px;
+}
+.nav-list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 95px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.nav-item {
+    width: 100%;
+    max-width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.nav-link {
+    width: 100%;
+    max-width: 80px;
+    color: #B4604D;
+}
+.nav-title {
+    width: 100%;
+    width: 330px;
+    height: 56px;
+    background-image: url('../images/Rectangle.svg');
+    background-size: cover;
+    background-position: center;
+    margin-right: 380px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-image {
+  
+}
+.nav-link_account {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #B45F4D;
+}
+
+.nav-vector {
+    width: 100%;
+    max-width: 19.49px;
+    height: 21px;
+    margin-left: 43.8px;
+    margin-right: 4.26px;
+    background-image: url('../images/Vector.svg');
+    background-repeat: no-repeat;
+}
+
+.nav-count {
+    margin-right: 90px;
+    color: #B45F4D;
+}
+/* HEADER END */
+
+/* MAIN START */
+
+.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: ;
+        -ms-flex-positive: ;
+            flex-grow: ;
+}
+.section {
+}
+
+/* SECTION START */
+
+/* SECTION HERO START */
+.section-hero {
+    width: 100%;
+    max-width: 1440px;
+    height: 435px;
+    background-image:url('../images/hero-image.png');
+    background-size: cover;
+    background-position: center;
+}
+.section-hero_img {
+}
+.section-hero_buttom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 69px;
+    padding-bottom: 51px;
+    background-color: #A9AE8D;
+    color: #F6F4EC;
+    line-height: 64px;
+}
+.section-hero_text {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.section-hero_title {
+    font-size: 33px;
+}
+.section-hero_button {
+    padding: 9px 20px 10px 20px;
+    font-size: 17px;
+    margin-top: 28px;
+    color: #ffffff;
+    background-color: #B45F4D;
+}
+/* SECTION HERO END */
+
+/* SECTION CATALOG START */
+.section-catalogs {
+    background-color: #F6F4EC;
+}
+
+.section-catalog {
+    width: 100%;
+    max-width: 1440px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 72.5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 89px; 
+}
+.section-catalog-title {
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 64px;
+    font-size: 23px;
+    color: #B45F4D;
+}
+
+.section-catalog_left {
+}
+
+.section-catalog_image_daedreamer {
+    width: 340px;
+    height: 510px;
+    background-image:url('../images/daedramer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-catalog_image_shampoo {
+    width: 340px;
+    height: 510px;
+    background-image:url('../images/shampoo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-catalog_image_conditioner {
+    width: 340px;
+    height: 510px;
+    background-image:url('../images/conditioner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 22px;
+}
+
+.section-catalog_title_daedreamer {
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #B45F4D;
+}
+
+.section-catalog_title_shampoo {
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #B45F4D;
+}
+
+.section-catalog_title_coditioner {
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #B45F4D;
+    margin-left: 22px;
+}
+
+.section-catalog_price_deadreamer {
+    padding-top: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #B45F4D;
+}
+
+.section-catalog_price_shampoo {
+    padding-top: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #B45F4D;
+}
+
+.section-catalog_price_conditioner {
+    padding-top: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #B45F4D;
+    margin-left: 22px;
+}
+/* SECTION CATALOG EMD */
+
+/* SECTION CATALOG IMAGE PRODUCT START */
+.section-catalog-image_present {
+    width: 100%;
+    max-width: 1400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;   
+    -webkit-box-pack: center;   
+        -ms-flex-pack: center;   
+            justify-content: center;
+    padding: 34px 0 46px;
+}
+
+.section-catalog-image_product {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    background-image: url('../images/warmth.png');  
+    background-size: cover;
+    background-position: center;
+}
+/* SECTION CATALOG IMAGE PRODUCT END */
+
+/* SECTION MEET DAE START */
+.section-meet_dae {
+    width: 100%;
+    max-width: 1440px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 204px;
+    padding: 97px 120px 67px 116px;
+    background-color: #F1D3B9;
+}
+
+.section-meet_dae_image {
+    width: 100%;
+    max-width: 500px;
+    background-image: url('../images/girl-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-meet_dae_info {
+    width: 100%;
+    max-width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 134px 42px 134px 42px;
+    background-color: #F8F8F8;
+}
+
+.section-meet_dae_info_title {
+    margin-bottom: 22px;
+    color: #B45F4D;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.section-meet_dae_info_text {
+    color: #B45F4D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-meet_dae_info_text_read-more {
+    width: 100%;
+    font-weight: 400;
+    color: #B45F4D;
+    margin-top: 41px;
+}
+/* SECTION MEET DSE END */
+
+/* SECTION SERVICE START */
+.section-service {
+    width: 100%;
+    max-width: 1440px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
+}
+
+.section-service_title {
+    padding-top: 54.84px;
+    padding-bottom: 48px;
+    font-size: 23px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 39px;
+    text-transform: capitalize;
+}
+
+.section-service_images {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 8.33px;
+}
+/* SECTION SERVICE IMAGES START */
+.section-service_image_lady-hair {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/girl-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-service_image_coocing {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/coocking.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-service_image_cactus {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/cactus.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-service_image_wallpaper {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/wallpaper.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-service_image_dae {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/dae.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-service_image_shower {
+    width: 192px;
+    height: 130px;
+    background-image: url('../images/shower.png');
+    background-size: cover;
+    background-position: center;
+}
+/* SECTION SERVICE IMAGES END */
+
+/* SECTION SERVICE END */
+
+/* SECTION END */
+
+/* MAIN END */
+
+
+/* FOOTER START */
+.footer {
+    width: 100%;
+    max-width: 1440px;
+    /* height: 300px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 57.25px;
+    padding-bottom: 30.75px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #F6F4EC;
+}
+
+.footer-contact_us {
+    width: 100%;
+    max-width: 120px;
+}
+
+.footer-contact_rights {
+    width: 100%;
+    max-width: 120px;
+    margin-right: 120px;
+}
+
+.footer-order {
+    width: 100%;
+    max-width: 470px;
+}
+
+.footer-contact_item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #B45F4D;
+}
+
+.footer-contact_link {
+    color: #B45F4D;
+}
+
+.footer-order_title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #C17C6C;
+}
+
+.order-input {
+    width: 100%;
+    max-width: 378px;
+    height: 44px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 8.63px;
+    font-size: 14;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #B45F4D;
+    border: 2px solid #B5614D;
+}
+
+.footer-order_recomend {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #C17C6C;
+}
+
+.footer-order_addrss {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C17C6C;
+}
+
+hr {
+    background: #F1D3B9;
+    ;
+}
+
+.dae-creat-year {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background-color: #F6F4EC;
+}
+
+.dae-creat-year_title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C17C6C;
+}
+/* FOOTER END */
